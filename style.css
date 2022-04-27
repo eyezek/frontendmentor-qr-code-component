@@ -1,0 +1,57 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: hsl(212, 45%, 89%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#card {
+     width: 340px;
+     height: auto;
+     padding: 16px;
+     border-radius: 19px;
+     background-color: white;
+     font-family: 'Outfit', sans-serif;
+     text-align: center;
+
+}
+section img {
+     max-width: 100%;
+     border-radius: 10px;
+}
+section p {
+     color: hsl(220, 15%, 55%);
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
